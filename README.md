@@ -109,20 +109,14 @@ Before starting, ensure that you have the following installed:
 
 ![image](https://github.com/user-attachments/assets/da252865-8364-451e-9df9-604ed2140463)
 
-![image](https://github.com/user-attachments/assets/edc6c8f4-92dc-482b-87fb-d4998a5a9e5f)
+![image](https://github.com/user-attachments/assets/1edddf46-e6e2-420f-a00d-457709899796)
 
-![image](https://github.com/user-attachments/assets/fc1d3bae-381e-4d47-a729-8e5be6114777)
+![image](https://github.com/user-attachments/assets/b44fb762-b7d5-4a35-bea2-1c71126739c2)
 
 ![image](https://github.com/user-attachments/assets/6cf9221d-efb4-4ec6-8576-4a071ee2a309)
 
+![image](https://github.com/user-attachments/assets/cdb77d84-f9c5-4c07-819f-31befdeaf5b3)
 
+![image](https://github.com/user-attachments/assets/ada43980-7d0f-43c0-91ea-529fd7ffefe4)
 
-
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/962d1122-82a1-49be-9a26-1233b925f7ba)
