@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>Dashboard</h2>
+    <p>Welcome, {{ user.first_name }} {{ user.last_name }}!</p>
+    <h4>Your Service Requests</h4>
+
+    <ul>
+        {% for request in service_requests %}
+        <li>
+            <a href="{% url 'track_request' request.id %}">
+                {{ request.request_type }} - {{ request.get_status_display }}
+            </a>
+        </li>
+        {% empty %}
+        <li>No service requests found.</li>
+        {% endfor %}
+    </ul>
+
+    <div class="mt-4">
+        <a href="{% url 'create_request' %}" class="btn btn-primary">Create a New Service Request</a>
+    </div>
+</div>
+{% endblock %}

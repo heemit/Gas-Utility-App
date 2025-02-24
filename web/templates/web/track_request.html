@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <h3>Track Service Request</h3>
+
+    <p><strong>Request Type:</strong> {{ service_request.request_type }}</p>
+    <p><strong>Status:</strong> {{ service_request.status }}</p>
+    <p><strong>Description:</strong> {{ service_request.description }}</p>
+    <p><strong>Created At:</strong> {{ service_request.created_at|date:"F j, Y, g:i a" }}</p>
+
+    {% if service_request.attachment %}
+    <h4>Attachment</h4>
+    <a href="{{ service_request.attachment.url }}" target="_blank">Download Attachment</a>
+    {% else %}
+    <p>No attachment available.</p>
+    {% endif %}
+</div>
+{% endblock %}
