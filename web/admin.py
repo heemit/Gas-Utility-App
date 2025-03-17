@@ -1,10 +1,11 @@
 from django.contrib             import admin
 from django.contrib.auth.admin  import UserAdmin
 from .models                    import User, ServiceRequest
+from unfold.admin               import ModelAdmin
 
 # Custom User Admin
 @admin.register(User)
-class CustomUserAdmin(UserAdmin):
+class CustomUserAdmin(UserAdmin, ModelAdmin):
     model = User
 
     # Display these fields in the list view
@@ -33,7 +34,7 @@ class CustomUserAdmin(UserAdmin):
 
 # Custom ServiceRequest Admin
 @admin.register(ServiceRequest)
-class ServiceRequestAdmin(admin.ModelAdmin):
+class ServiceRequestAdmin(ModelAdmin):
     list_display    = ('user', 'request_type', 'status', 'created_at', 'updated_at')
     search_fields   = ('request_type', 'status', 'user__username')
     list_filter     = ('status', 'created_at')
