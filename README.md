@@ -112,7 +112,6 @@ Before starting, ensure that you have the following installed:
 ![image](https://github.com/user-attachments/assets/1edddf46-e6e2-420f-a00d-457709899796)
 
 ![image](https://github.com/user-attachments/assets/b44fb762-b7d5-4a35-bea2-1c71126739c2)
-
 ![image](https://github.com/user-attachments/assets/6db3aa86-7bed-4a8b-9168-6bc56e9cd1a0)
 
 ![image](https://github.com/user-attachments/assets/2e69485b-9579-49e5-a89d-9a170d677557)
